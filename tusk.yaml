@@ -1,0 +1,8 @@
+tasks:
+  update:
+    usage: update manifest for app
+    options:
+      name:
+        usage: name of the app
+        default: "*"
+    run: pwsh -ExecutionPolicy bypass -NoProfile -NoLogo -Command "D:\Scoop\apps\scoop\current\bin\checkver.ps1 -App ${name} -Dir . -Update"
