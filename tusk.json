@@ -7,6 +7,6 @@
     "bin": "tusk.exe",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/rliebz/tusk/releases/download/v$version/tusk_v$version_windows_amd64.zip"
+        "url": "https://github.com/rliebz/tusk/releases/download/v$version/tusk_$version_windows_amd64.zip"
     }
 }
