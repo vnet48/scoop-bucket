@@ -2,9 +2,9 @@
     "homepage": "https://github.com/rliebz/tusk",
     "description": "The modern task runner https://rliebz.github.io/tusk/",
     "license": "MIT",
-    "version": "0.4.7",
-    "url": "https://github.com/rliebz/tusk/releases/download/v0.4.7/tusk_0.4.7_windows_amd64.zip",
-    "hash": "9beef66a7cac16b3490aee82100e1a8c50d04a4394245eb7ced7910bfac9ba32",
+    "version": "0.5.0",
+    "url": "https://github.com/rliebz/tusk/releases/download/v0.5.0/tusk_0.5.0_windows_amd64.zip",
+    "hash": "db2b23237eecf8fb4797c684d719ac3ff5cea85041be1d146c72ffb8dd06b248",
     "bin": "tusk.exe",
     "checkver": "github",
     "autoupdate": {
