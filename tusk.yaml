@@ -5,4 +5,7 @@ tasks:
       name:
         usage: name of the app
         default: "*"
-    run: pwsh -ExecutionPolicy bypass -NoProfile -NoLogo -Command "D:\Scoop\apps\scoop\current\bin\checkver.ps1 -App ${name} -Dir . -Update"
+    run: 
+      - set-environment:
+          SHELL: pwsh.exe
+      - command: pwsh -ExecutionPolicy bypass -NoProfile -NoLogo -Command "$(Split-Path -Path $(scoop which scoop) -Parent)\checkver.ps1 -App ${name} -Dir . -Update"
